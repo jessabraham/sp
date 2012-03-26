@@ -1,5 +1,19 @@
-1332729994
+1332733752
+About page	C:/Sites/sp/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Sites/sp/config/application.rb	  class Application 
 ApplicationController	C:/Sites/sp/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/sp/app/helpers/application_helper.rb	module ApplicationHelper
+Help page	C:/Sites/sp/spec/requests/static_pages_spec.rb	describe "Help page" do
+Home page	C:/Sites/sp/spec/requests/static_pages_spec.rb	describe "Home page" do
 Sp	C:/Sites/sp/config/application.rb	module Sp
+Static pages	C:/Sites/sp/spec/requests/static_pages_spec.rb	describe "Static pages" do
+StaticPagesController	C:/Sites/sp/app/controllers/static_pages_controller.rb	class StaticPagesController 
+about	C:/Sites/sp/app/controllers/static_pages_controller.rb	  def about
+help	C:/Sites/sp/app/controllers/static_pages_controller.rb	  def help
+home	C:/Sites/sp/app/controllers/static_pages_controller.rb	  def home
+should have the h1 'About'	C:/Sites/sp/spec/requests/static_pages_spec.rb	it "should have the h1 'About'" do
+should have the h1 'Help'	C:/Sites/sp/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
+should have the h1 'Sample App'	C:/Sites/sp/spec/requests/static_pages_spec.rb	it "should have the h1 'Sample App'" do
+should have the title 'About Us'	C:/Sites/sp/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
+should have the title 'Help'	C:/Sites/sp/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
+should have the title 'Home'	C:/Sites/sp/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
